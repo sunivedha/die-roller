@@ -13,7 +13,7 @@ button.onclick = function() {
         const value = Math.floor(Math.random() * 6) + 1;
         values.push(value);
 
-        images.push(`<img src="dice_images/${value}.png">`);
+        images.push(`<img src="${value}.png">`);
     }
 
     DiceResults.textContent = values.join(', ');
